@@ -64,7 +64,13 @@ pip install -r requirements.txt
 4. Open the notebook in the `notebooks` directory.
 5. Run the notebook cells in order.
 
-The generated files are saved in the `results` directory.
+The generated files are saved in the output directory specified in the notebook.
+
+## Reproducibility
+
+The committed notebook contains the outputs obtained in the computing environment used for the accompanying study and serves as the archived computational record underlying the reported results. Exact numerical reproduction may depend on the operating system, hardware, library versions, input data, and parallel-computation behavior. The principal package versions used in the reported analysis are listed in `requirements.txt`.
+
+Re-execution requires the original input datasets described in `data/README.md`. The executed notebook should not be re-run merely to reproduce its displayed outputs unless the same inputs and software environment are available.
 
 ## Interpretation
 
